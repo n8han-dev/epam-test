@@ -6,7 +6,8 @@ pipeline {
             steps {
                 echo 'Hello World'
                 sh "ls"
-                sh "cfg.sh"
+                sh "chmod +x cfg.sh"
+                sh "./cfg.sh"
             }
         }
     }
