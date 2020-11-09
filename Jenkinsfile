@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
                 sh "ls"
                 sh "chmod +x cfg.sh"
-                sh "./cfg.sh"
+                sh "sh cfg.sh"
             }
         }
     }
